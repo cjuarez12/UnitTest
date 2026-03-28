@@ -18,8 +18,7 @@ class Persona:
         return self.edad >= 18
 
 
-# Crear un objeto de la clase Persona
-persona1 = Persona("Juan", 25)
+
 
 # Usar los métodos
 persona1.mostrar_info()
