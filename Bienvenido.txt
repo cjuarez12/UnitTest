@@ -1,0 +1,30 @@
+class Persona:
+    def __init__(self, nombre, edad):
+        # Atributos
+        self.nombre = nombre
+        self.edad = edad
+
+    # Método para mostrar información
+    def mostrar_info(self):
+        print(f"Nombre: {self.nombre}")
+        print(f"Edad: {self.edad}")
+
+    # Método para saludar
+    def saludar(self):
+        print(f"Hola, mi nombre es {self.nombre}")
+
+    # Método para verificar si es mayor de edad
+    def es_mayor_de_edad(self):
+        return self.edad >= 18
+
+
+
+
+# Usar los métodos
+persona1.mostrar_info()
+persona1.saludar()
+
+if persona1.es_mayor_de_edad():
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
